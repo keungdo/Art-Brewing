@@ -1,0 +1,81 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+body{font-family: "Pretendard-Regular";font-size: 20px; 
+line-height: 26px; 
+color: #2d2d2d; 
+vertical-align: middle;
+min-width:1450px;}
+.clearfix::after{display: block; content: "";clear: both;}
+img{vertical-align: middle;}
+#top{width: 1320px; margin: auto;}
+#top ul{font-size: 16px; float: right;}
+#top ul li{float: left; padding: 3px 30px;}
+#header{background-color: #2d2d2d; color: #eeeeee; font-weight: bold}
+#header ul{width: 1320px; margin: auto; display: flex;align-items: center; height: 88px;}
+#header ul li{width: 20%; text-align: center;}
+
+.gallery{background: url(./png/gallery.png) no-repeat; width: 100%; margin-top: 67px;}
+.g_margin{width: 1320px; margin: auto; padding-top: 122px; display: flex;}
+.g_margin p{padding-right: 152px; line-height: 36px;}
+.g_p{float: left; font-weight: 600;}
+.g_i{float: right;text-align: center; padding-left: 90px;}
+.g_i ul li{padding-bottom: 20px;}
+
+.space{background: url(./png/space.png) no-repeat right top;width: 100%; margin-top: 150px;}
+.s_margin{width: 1320px; margin: auto; padding-top: 150px; display: flex;}
+.s_margin p{text-align: right; line-height: 36px; font-weight: 600;}
+.s_margin img{padding-right: 35px;}
+
+.meeting{background: url(./png/meeting.png) no-repeat; width: 100%; margin-top: 65px;}
+.m_margin{width: 1320px; margin: auto; padding-top: 152px; display: flex;}
+.m_margin p{padding-right: 3px; line-height: 36px; font-weight: 600;}
+.m_margin img{text-align: right;}
+
+.goods{background: url(./png/goods_background.png) no-repeat center; width: 100%; height: 1047px; padding-top: 89px; color: #eeeeee; margin-bottom: -45px;}
+.o_margin{width: 1320px; margin: auto; padding-top: 20px; padding-bottom: 20px;}
+.o_margin p{padding: 64px 0 10px 225px; font-weight: 600;}
+.o_ul1{display: flex;}
+.o_ul1 li{margin: 60px;}
+.o_ul2{display: flex;}
+.o_ul2 li{margin: 0 60px;}
+
+#footer{background-color: #2d2d2d; color: #eeeeee; font-weight: 500;}
+.f_margin{width: 1320px; margin: auto; position: relative;}
+.f_box{float: left;padding-bottom: 39px;}
+.f_box ul li{float: left; padding: 42px 50px 0 0;}
+.f_box3{position: absolute; right: 30px; top: 51px;}
+.f_box2{float: left;}
+.f_p{padding-bottom: 28px; line-height: 31px;}
+.f_p2{padding-bottom: 47px;}
+
+.hover li:hover img{transform: scale(1.2, 1.2); transition: all 0.5s;}
+.hover li img{transition: all 0.5s;}
+.hover li{overflow: hidden;}
+
+.page{color: #eeeeee; text-align: center; padding-bottom: 20px 0 80px 0; font-weight: 600;}
+.page a:hover{color: #ccc; transition: all 0.5s;}

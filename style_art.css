@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+    @font-face {
+        font-family: 'Pretendard-Medium';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Pretendard-SemiBold';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Pretendard-Bold';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+    }
+body{font-family: "Pretendard-Regular";font-size: 20px; 
+    line-height: 26px; 
+    color: #2d2d2d; 
+    vertical-align: middle;
+    min-width:1450px;}
+.clearfix::after{display: block; content: "";clear: both;}
+img{vertical-align: middle;}
+#top{width: 1320px; margin: auto;}
+#top ul{font-size: 16px; float: right;}
+#top ul li{float: left; padding: 3px 30px;}
+#header{background-color: #2d2d2d; color: #eeeeee; font-weight: bold}
+#header ul{width: 1320px; margin: auto; display: flex;align-items: center; height: 88px;}
+#header ul li{width: 20%; text-align: center;}
+
+.story{background: url(./png/art_background.png) no-repeat; width: 100%; height: 1280px; margin-bottom: 640px;}
+.margin{width: 1320px; margin: auto; color: #eeeeee;}
+.margin .s_h1{padding-top: 228px; line-height: 60px; font-size: 40px; font-weight: 700;}
+.margin .s_h2{padding-top: 82px; padding-bottom: 310px; font-weight: 700;}
+.s_full{display: flex; align-items: center;}
+.photo{width: 50%; padding: 0 0 55px 82px;}
+.photo ul li{padding-bottom: 55px;}
+.s_text{width: 50%; padding: 0 0 360px 170px; font-weight: 400;}
+.s_text p{padding-bottom: 32px;}
+
+.brand{background: url(./png/art_text_bar.png) no-repeat; width: 100%;}
+.b_margin{width: 1320px; margin: auto; color: #f8f4b3;}
+.b_margin h1{padding: 15px 0 105px 80px;}
+.b_img{text-align: center; padding-bottom: 216px;}
+
+#footer{background-color: #2d2d2d; color: #eeeeee; font-weight: 500;}
+.f_margin{width: 1320px; margin: auto; position: relative;}
+.f_box{float: left;padding-bottom: 39px;}
+.f_box ul li{float: left; padding: 42px 50px 0 0;}
+.f_box3{position: absolute; right: 30px; top: 51px;}
+.f_box2{float: left;}
+.f_p{padding-bottom: 28px; line-height: 31px;}
+.f_p2{padding-bottom: 47px;}

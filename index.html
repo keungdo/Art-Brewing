@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1450">
+  <title>Art Brewing</title>
+  <link rel="shortcut icon" href="./png/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="top" class="clearfix">
+    <ul>
+      <li><a href="#">로그인</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">오시는 길</a></li>
+    </ul>
+  </div>
+  <div id="header">
+    <ul>
+      <li><a href="./art.html">ART</a></li>
+      <li><a href="./menu.html">MENU</a></li>
+      <li><a href="./index.html"><img src="./png/top_logo.png" alt="로고"></a></li>
+      <li><a href="./entertainment.html">ENTERTAINMENT</a></li>
+      <li><a href="./comunity.html">COMUNITY</a></li>
+    </ul>
+  </div>
+  <div class="main_benner">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./png/main_benner.gif" alt="메인 배너1"></div>
+        <div class="swiper-slide"><img src="./png/bennur2.png" alt="메인 배너2"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 0,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </div>
+  <div class="menu_line">
+    <h1>Drink Menu</h1>
+    <h3><a href="./menu.html#beer">바로가기</a></h3>
+    <div id="slide">
+      <div class="slide_inner">
+        <ul>
+          <li><img src="./png/main_menu1.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu2.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu3.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu4.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu5.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu6.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu7.png" alt="메뉴"></li>
+        </ul>
+        <ul>
+          <li><img src="./png/main_menu1.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu2.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu3.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu4.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu5.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu6.png" alt="메뉴"></li>
+          <li><img src="./png/main_menu7.png" alt="메뉴"></li>
+        </ul>
+      </div>
+      <!--slid_inner E-->
+
+    </div>
+  </div>
+  <div class="art_line">
+    <h1>Art Gallery</h1>
+    <h3><a href="./entertainment.html#gallery">바로가기</a></h3>
+    <div class="full">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./png/main_art1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./png/main_art2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./png/main_art3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./png/main_art4.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./png/main_art5.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./png/main_art6.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./png/main_art7.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next next"></div>
+      <div class="swiper-button-prev next"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "4",
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        loop: true,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }
+      });
+    </script>
+  </div>
+  <div class="box">
+    <div class="store">
+      <div class="text">
+        <h1>Store</h1>
+        <a href="./entertainment.html#goods"><h3>시그니처<br>&<br>굿즈</h3></a>
+      </div>
+      <div class="goods">
+        <ul>
+          <li class="goods1"><img src="./png/signichur.png" alt="시그니처"><br>아트 브루잉만에 시원함을 포착!!<br>언제 어디서든 가볍게 즐기세요</li>
+          <li><img src="./png/signichur2.png" alt="시그니처"><br>매장 시그니처 아이템! 아트 셔츠!<br>걸치는 순간 자신감이 뿜뿜!!</li>
+          <li class="goods1"><img src="./png/signichur3.png" alt="시그니처"><br>커피 한 잔의 여유! 아트 머그!!<br>올 겨울 따뜻하게 보내세요^^</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="comunity">
+    <div class="margine">
+      <div class="notice">
+        <h1>Notice</h1>
+        <ul>
+          <li><a href="#">· 23.01.02(월) 매장 오픈 일정 공개.</a></li>
+          <li><a href="#">· 23.01.08(일) 오픈 이벤트 안내.</a></li>
+          <li><a href="#">· 23.01.13(금) 응모 안내.</a></li>
+          <li><a href="#">· 23.01.16(월) 매장 전격 오픈!!</a></li>
+        </ul>
+        <h4><a href="./comunity.html#notice" class="a1">더보기</a></h4>
+      </div>
+      <div class="event">
+        <h1>Event</h1>
+        <ul>
+          <li><a href="#">· 오픈 이벤트 3+1!</a></li>
+          <li><a href="#">· 2023 토끼 다크 초콜릿 증정</a></li>
+          <li><a href="#">· 발렌타인:화이트 스파이더 케잌!</a></li>
+          <li><a href="#">· 도박인가? 응모인가!</a></li>
+        </ul>
+        <h4><a href="./comunity.html#event" class="a1">더보기</a></h4>
+      </div>
+    </div>
+  </div>
+  <div class="sns">
+    <h1>SNS Review</h1>
+  </div>
+  <div class="sns2">
+    <img src="./png/middle_sns.png" alt="사진들">
+  </div>
+  <div class="locate">
+    <div class="margin2">
+      <h1>Locate</h1>
+      <div class="locate2">
+        <div class="which">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.8245005770905!2d129.07452996553948!3d35.08611751998558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568efb5105fbefd%3A0xd95834f3850aa994!2z7ZS87JWE7YGs!5e0!3m2!1sko!2skr!4v1668655233382!5m2!1sko!2skr"
+            width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="walk">
+          <ul>
+            <li class="w_li2"><img src="./png/locate1.png" alt="위치">Location</li>
+            <li class="w_li">부산 영도구 해양로195번길 150 아트브루잉</li>
+            <li class="w_li2"><img src="./png/locate2.png" alt="버스">Bus</li>
+            <li class="w_li">8, 30, 66, 88, 101, 113, 186, 190, 영도구 5번</li>
+            <li class="w_li2"><img src="./png/locate3.png" alt="시계">Open & Close</li>
+            <li class="w_li">A.M 10:00 ~ P.M 22:00</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="f_margin clearfix">
+      <div class="f_box">
+        <ul>
+          <li><a href="#">사이트 이용약관</a></li>
+          <li><a href="#">매장정보</a></li>
+          <li><a href="#">오시는 길</a></li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">고객지원</a></li>
+        </ul>
+      </div>
+      <div class="f_box2">
+        <p class="f_p">본점:아트브루잉 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          대표자:이경두 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          주소:부산 영도구 해양로196번길150 1층 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          TEL:010-2819-2294<br>
+          E-mail:ruden802@naver.com</p>
+        <p class="f_p2">Copyright @ ART BREWING All Rights Reserved.</p>
+      </div>
+      <div class="f_box3">
+        <img src="./png/under_logo.png" alt="로고">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
